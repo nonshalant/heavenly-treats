@@ -1,0 +1,136 @@
+.who-we-are {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+.landing {
+    display: flex;
+    justify-content: center;
+}
+
+.landing .left {
+    width: 40%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing .left h1 {
+    line-height: 1.5;
+    width: 55%;
+}
+
+.landing .right {
+    width: 60%;
+    height: 455px;
+    text-align: center;
+}
+
+.landing .right img { 
+    width: 100%;
+    height: 100%;
+}
+
+/* OUR STORY  */
+
+
+.our-story {
+    background-color: white;
+}
+
+.our-story-container {
+    padding: 3% 0;
+    width: 40%;
+    margin: auto;
+}
+
+.our-story-container h2 {
+    text-align: center ;
+    font-weight: 900;
+    margin-bottom: 5%;
+}
+
+.our-story-container .content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    line-height: 2;
+}
+
+
+/* OUR TEAM  */
+
+.our-team h2{
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.our-team-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+.member .image {
+    width: 80%;
+    margin: auto;
+}
+
+.member img {
+    width: 100%;
+}
+
+.member .content {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 1%;
+}
+
+.content p {
+    line-height: 2;
+}
+
+@media screen and (max-width: 767px) {
+    .landing {
+        flex-direction: column;
+        
+    }
+    .landing .left {
+        width: 100%;
+    }
+    .landing .left h1 {
+        width: 100%;
+        font-size: 3rem;
+    }
+    .landing .right {
+        width: 100%;
+    }
+    .landing .right img {
+        width: 100%;
+    }
+    .our-story-container h2 {
+        margin-top: 3%;
+    }
+    .our-story-container {
+        width: 100%;
+    }
+    .our-story-container .content {
+        padding: 2.5%;
+    }
+    .our-team h2 {
+        padding-top: 5%;
+    }
+    .our-team-container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+    .member {
+        display: flex;
+        flex-direction: column;
+    }
+}

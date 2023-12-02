@@ -1,0 +1,56 @@
+.verification {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.verification-container {
+    border: 1px solid;
+    -webkit-box-shadow: 0 0 10px #000000;
+    box-shadow: 0 0 10px #000000;
+    display: flex;
+}
+
+.verification-container .inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 30px;
+    text-align: center;
+    padding: 1.5%;
+    width: 50%;
+}
+
+.inner .logo img {
+    width: 150px;
+}
+
+.verification-image {
+    width: 50%;
+}
+
+.verification-image img {
+    height: 100%;
+}
+
+.verification-container h1 {
+    font-size: 3rem;
+}
+
+.verification-question {
+    font-weight: 800;
+}
+
+.verification-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.verification-form #DOB {
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    padding: 1.5%;
+}

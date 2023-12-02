@@ -1,0 +1,85 @@
+.modal-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.modal-redirect {
+   padding: 1.5% 3%;
+   display: flex;
+   align-items: center;
+}
+
+.modal-product {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 50%;
+    justify-content: space-evenly;
+    padding: 3%;
+}
+
+.modal-image {
+    height: 100%;
+}
+
+.modal-image img {
+    height: 100%;
+}
+
+.modal-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 1%;
+    padding-left: 15%;
+}
+
+.description-container {
+    width: 70%;
+    line-height: 2.6;
+}
+
+.add-to-cart {
+    width: fit-content;
+}
+
+.add-to-cart:hover {
+    cursor: pointer;
+}
+
+.product-type {
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 2.5%;
+    color: whitesmoke;
+}
+
+/* PRODUCT REVIEW  */
+
+.product-review {
+    text-align: center;
+    background-color: white;
+    padding: 2%;
+}
+
+.review-inputs {
+    width: 30%;
+    margin: auto;
+    padding: 3% 0;
+}
+
+.product-review .review-inputs .field {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+    padding: 1%;
+    margin-bottom: 2%;
+}
+
+.review-inputs form input {
+    margin: 5% 0;
+}
+

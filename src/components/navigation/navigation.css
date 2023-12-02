@@ -1,0 +1,65 @@
+.desktop-navigation {
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+header {
+    background-image: url("https://res.cloudinary.com/dyzydm9nl/image/upload/v1680233805/Heavenlyyy%20Treats/images-removebg-preview_jtguo4.png");
+    background-position: center;
+    background-blend-mode: multiply;
+    background-color: rgb(226, 237, 247);
+    background-size: auto 100%;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3%;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-evenly;
+    width: 45%;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+.logo-container {
+    width: 10%;
+    text-align: center;
+}
+
+.logo-container img {
+    width: 100px;
+}
+
+
+/* MOBILE  */
+
+.mobile-navigation {
+    background-image: url("https://res.cloudinary.com/dyzydm9nl/image/upload/v1680233805/Heavenlyyy%20Treats/images-removebg-preview_jtguo4.png");
+    background-position: center;
+    background-blend-mode: multiply;
+    background-color: rgb(226, 237, 247);
+    background-size: auto 100%;
+    display: flex;
+    justify-content: end;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.mobile-nav-container {
+    width: 61%;
+    padding-top: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mobile-nav-container .logo-container {
+    width: 100px;
+}
